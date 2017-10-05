@@ -1,5 +1,6 @@
 from sys import exit
 
+# start room
 def start():
 
     choice = input("There is a door to your right and left. Which one do you take? ")
@@ -11,6 +12,7 @@ def start():
     else:
         dead("You stumble around the room until you starve.")
 
+# second room
 def bank_room():
 
     choice = input("This room is full of money. How many bank note bundles do you take? ")
@@ -27,6 +29,7 @@ def bank_room():
         dead("Man, learn to type a number.")
 
 
+# GET CREATIVE:
 # Write a function for your_room
 
 

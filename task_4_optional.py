@@ -1,12 +1,17 @@
 print()
 print("What is your name?")
 
-# store input in 'name' 
 name = input("> ")
 
-# use input in a print statement
 print("Hello %s, welcome the the dungeon!" % (name))
 print("Do you go through door 1 or door 2?")
+
+def wrong_input():
+    print("You are not so good with numbers, are you?")
+
+# create function with an argument
+def dead(death_message):
+    print(death_message, "You are dead.")
 
 door = input("> ")
 
@@ -21,12 +26,13 @@ if door == "1":
     if vampire == "1":
         print("Congratulations %s, you found a new friend!" % (name))
     elif vampire == "2":
-        print("Sorry %s, the vampire is faster. You become a dinner." % (name))
+        # using function
+        dead("Sorry %s, the vampire is faster. You become a dinner." % (name))
     else:
-        print("You are not so good with numbers, are you?")
+        wrong_input()
 
 # GET CREATIVE:
-# Ask your player a second question and use the answer.
+# check if the input the user gave you is bigger/smaller than 50 with: if int(some_input) > 50
 
 else:
-    print("You are not so good with numbers, are you?")
+    wrong_input()
