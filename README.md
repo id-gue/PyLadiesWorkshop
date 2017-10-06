@@ -7,7 +7,7 @@ Meetup Page
 
 ## Links for Friday:
 
-1. Install Python https://tutorial.djangogirls.org/en/installation/installation/
+1. Install Python https://tutorial.djangogirls.org/en/installation/
 
 2. Install Sublime www.sublimetext.com/3
 
