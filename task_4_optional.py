@@ -11,7 +11,7 @@ def wrong_input():
 
 # create function with an argument
 def dead(death_message):
-    print(death_message, "You are dead.")
+    print("You are dead.", death_message)
 
 door = input("> ")
 
